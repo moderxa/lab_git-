@@ -1,0 +1,1 @@
+const readline = require("readline"); const rl = readline.createInterface({ input: process.stdin, output: process.stdout }); let num1 = 0, num2 = 0; function showMenu() { console.log("\n--- MENU ---"); rl.question("Choice: ", (c) => { if (c === "6") rl.close(); else showMenu(); }); } showMenu();
