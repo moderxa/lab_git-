@@ -1,0 +1,1 @@
+let num1 = 0, num2 = 0; function processChoice(c) { if (c === "4") console.log("Результат деления: " + (num2 !== 0 ? (num1 / num2) : "Ошибка: деление на ноль!")); else console.log("Операция не реализована в этой ветке"); }
